@@ -1,136 +1,135 @@
-body
-{
+body{
+	border: 3px solid black;
 	font-size: 16px;
 	margin :0 auto;
-	max-width: 1090px;
-	min-width: 1090px;
-	border: 1px solid orange;
+	max-width: 1078px;
+	min-width: 1078px;
 }
-header img{
-	margin-top: 20px;
-	margin-left: 50px;
+header{
+	margin-bottom: 100px;
 }
-header p{
-	float: right;
+
+header nav ul{
+		margin-left: 350px;
+		margin-top: -90px;
 }
-header nav{
-	margin-left: 250px;
-	margin-top: -130px;
-}
+
 header nav ul li{
 	display: inline-block;
-	padding: 20px;
-}
-#seccion01 img{
-	border-radius: 2000px;
-	margin-left: 50px;
-	margin-top: 100px;
-	width: 400px
-}
-#seccion01 article img{
-	vertical-align: middle;
-}
-#nav{
-	margin-left: 500px;
-	margin-top: -400px;
-}
-
-#seccion01 nav ul li{
-	/*background: pink;*/
-	border-radius: 250px;
-	color: white;
-	display: inline-block;
-	/*float: right;*/
-	height: 30px;
-	padding: 50px;
-	vertical-align: top;
-	width: 30px;
+	padding-right: 15px;
+	font-family: 'Roboto Slab', serif;
 
 }
-#seccion01 nav ul #services{
-	background: orange;
+
+
+#coton{
+	border-radius: 280px;
+	margin-left: 20px;
+	width: 500px;
 }
-#seccion01 nav ul #flavors{
-	background: #678CF8;
+
+#eslogan{
+	float: right;
+	margin-top: 65px;
+	margin-right: 20px;
+	font-family: 'Muli', sans-serif;
 }
-#seccion01 nav ul #eye{
+
+#logo{
+	margin-top: 40px;
+	margin-left: 40px;
+}
+
+#renglon{
 	background: pink;
+	border-radius: 15px;
+
 }
-#welcome{
-	margin-left: 550px;
-	margin-top: 50px;
-}
-#bon{
-	margin-left: 550px;
-	margin-top: 20px;
-}
-#seccion03 article nav{
-	margin-left: 650px;
-}
-#seccion03 article nav ul li{
+
+#secc01 table tr td nav article
+{
 	display: inline-block;
-	padding: 10px;
-	padding-bottom: 30px;
-	position: relative;
+	padding-left: 20px;
 }
-#seccion04 article{
+#services{
+	border-radius: 300px;
+	background: #F0D731;
+	text-align: center;
+	height: 110px;
+	width: 140px;
+	font-family: 'Lily Script One', cursive;
+
+}
+#segundoRenglon{
+	font-family: 'Roboto Slab', serif;
+}
+#flavors{
+	background:#97D1C7;
+	border-radius: 300px;
+	text-align: center;
+	height: 110px;
+	font-family: 'Lily Script One', cursive;
+	width: 145px;
+}
+#candy{
+	background: #F7A1A1;
+	border-radius: 300px;
+	text-align: center;
+	height: 110px;
+	width: 145px;
+	font-family: 'Lily Script One', cursive;
+
+}
+#secc01 table tr td nav ul li{
 	display: inline-block;
-	margin-right: 100px;
+	text-align: center;
+	padding-top: 35px;
 }
-#sec02art01{
-	/*margin-top: -100px;*/
-	margin-left: 50px;
+
+#by{
+	margin-left: 20px;
 }
-#bon{
-	font-size: 0.5em;
+
+#secc02 nav
+{
+	margin-left: 700px;
 	
 }
-#sec04art02{
-	margin-left: 300px;
+#secc02 nav img{
+	padding-right: 15px;
+}
+#copy{
+	margin-left: 500px;
+	margin-bottom: 20px;
+}
+#foot{
+	margin-left: 30px;
+}
+.italica{
+	font-style: italic;
 }
 
-.colorrosa
-{
-	color: #F198D4;
+.letraMediana{
+	font-size: 2em;
 }
-.colorazul
-{
-	color: #678CF8;
+.letramini{
+	font-size: 0.8em;
 }
 
 .nito
- {
-	font-weight: bold;
- }
- .ita
- {
-	font-weight: italic;
- }
-
-
-.coloramarillo
 {
-	background: : #F0DF29;
+	font-weight: bold;
+}
+.colorblanco{
+	color: #FFFFFF;
+}
+.colorverde{
+	color: #97D1C7;
 }
 
- .letramediana
-{ 
-	font-size: 2em;
+.colorrosa{
+	color: #F7A1A1  ;
 }
-.letrachica
-{ 
-	font-size: 1em;
- }
- .ultrachica{
- 	font-size: .5em;
- }
-
-
-
-
-
-
-
-
-
-
+.colorgris{
+	color: #6D6D6D    ;
+}
