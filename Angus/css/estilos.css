@@ -1,0 +1,22 @@
+
+div{
+    background: #F5A81A;
+}
+div div img{
+    padding: 5%;
+    width: 30%;
+}
+body{
+    margin: 0 auto;
+}
+div div nav ul li{
+    display: inline-block;
+    padding: 3%;
+    padding-top: 15%;
+}
+div div nav ul li img{
+    width: 30px;  
+}
+#elementos{
+    padding: 3%;
+}

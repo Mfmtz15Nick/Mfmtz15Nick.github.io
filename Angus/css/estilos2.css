@@ -1,0 +1,74 @@
+
+#titulo{
+    margin-top: 4%;
+    margin-left: 12%;
+}
+#logo{
+   width: 30%;  
+}
+#uno, #dos, #tres, #ultimo  {
+    margin-top: 100px;
+    padding: 10px;
+}
+#tres, #ultimo{
+    margin-left: 20px;
+}
+#tres{
+    margin-left: 60px;
+}
+#ultimo{
+    margin-left: -70px;
+}
+#ultimoimg,#tresimg{
+    height: 30px;
+    width: 30px;
+}
+
+#lista{
+    display: none;
+}
+#formulario{
+    height: 450px;
+    width: 640px;
+    margin-left: 46%;
+    margin-top: -100px;
+
+}
+#form2{
+    padding: 10%;
+}
+#form2 input{
+    margin-left: 50px;
+    padding: 10px;
+    width: 400px;
+    outline: none;
+    border: 0;
+}
+#lap{
+    margin-top: -340px;
+}
+
+.titulo{
+    color: #F5A81A;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.nito
+ {
+	font-weight: bold;
+ }
+ @media only screen and (max-width: 1200px) {
+    #uno, #dos, #tres, #ultimo  {
+        display: none;
+        
+    }
+    #lista{
+        display: inline-block;
+    }
+   
+}
+@media only screen and (max-width: 600px) {
+     #logo{
+        height: auto;
+        width: 80%;
+    }
+}

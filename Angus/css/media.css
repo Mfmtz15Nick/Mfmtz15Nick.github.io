@@ -1,0 +1,187 @@
+body{
+    background: black;
+    color: white;
+    font-size: 16px;
+    margin: 0 auto;
+}
+div img{
+    height: 80px;
+    margin-left: 40px;
+    margin-top: 30px;
+    width: 200px;
+}
+div nav{
+    height: 130px;
+}
+
+#navbarNav a{
+    padding: 10px;
+}
+#navbarNav ul li a img{
+    height: 30px;
+    margin-top: -5px;
+    margin-left: -5px;
+    width: 30px;
+}
+#navbarNav{
+    margin-right: 70px;
+}
+#titulo{
+    margin-left: 180px;
+    margin-top: 60px;
+}
+#formulario{
+    background: white;
+    color: black;
+    height: 520px;
+    margin-left: 600px;
+    margin-top: -80px;
+    width: 650px;
+}
+#textbox{
+    margin-left: 200px;
+    margin-top: 40px;
+   
+}
+#textbox input{
+    border-width:0;
+    border-bottom: 2px solid gray;
+    outline: none;
+    
+    padding-top: 20px;
+    width: 350px;
+}
+#textbox button{
+    background: #F5A81A;
+    border: 0;
+    height: 30px;
+    margin-left: 290px;
+    margin-top: 10px;
+}
+#texto{
+    margin-left: 130px;
+    margin-top:60px ;
+}
+#laptop{
+    height: 450px;
+    margin-left: 75px;
+    margin-top: -480px;
+    width: 730px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Tipografia*/
+.sencillo{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.titulo{
+    color: #F5A81A;
+    font-family: 'Brandon';
+    font-size: 2.4em;
+    font-weight: bold;
+}
+.titulo2{
+    font-weight: bold;
+    font-size: 2em;
+}
+.gray{
+    color: gray;
+}
+
+
+/*Media Queries para el header*/
+
+@media only screen and (max-width: 1000px) {
+    div nav{
+        height: auto;
+        float: right;
+    }
+    div img{
+        width: 50%;
+        margin-bottom:15%;
+        height: auto;
+        margin-left: 15%;
+        margin-top: 15%;
+    }
+}
+@media only screen and (max-width: 600px) {
+    div nav{
+        height: auto;
+        float: right;
+    }
+    div img{
+        width: 100%;
+        margin-bottom:15%;
+        height: auto;
+        margin-left: 15%;
+        margin-top: 15%;
+    }
+}
+
+/*Media Queries para Body*/
+@media only screen and (max-width: 1000px) {
+    #laptop{
+       display: none;
+   }
+   #space{
+    
+}
+    #titulo{         
+        font-size: 1em;
+        font-weight: normal;
+        margin: 0;
+        margin-top: 5%;
+        text-align: center;
+   }
+    #formulario{
+        margin: 0% auto;
+        margin-left: 6%;
+        margin-right: auto;
+        width: 90%; 
+    }
+    #texto{
+        margin: 0% auto;
+        text-align: center;
+    }   
+   
+    #textbox{
+        margin: 0% auto;
+        width: 100%;
+
+    }
+    #textbox input{
+        margin: 0% auto;
+        margin-left: 15%;
+        width: 70%;  
+    }
+    #textbox button{
+        border-radius: 1px;
+        margin: 0% auto;
+        width: 50%;
+        margin-top: 10%;
+        margin-left: 25%;
+        
+        
+    }
+    
+}
+
+
+
