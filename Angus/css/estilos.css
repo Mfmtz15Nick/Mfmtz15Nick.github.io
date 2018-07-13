@@ -10,6 +10,7 @@ div img{
     margin-top: 30px;
     width: 200px;
 }
+
 div nav{
     height: 130px;
 }
@@ -23,6 +24,12 @@ div nav{
     margin-left: -5px;
     width: 30px;
 }
+#navbarNav ul li a img:hover{
+    
+    height: 33px;
+    width: 33px;
+}
+
 #navbarNav{
     margin-right: 70px;
 }
