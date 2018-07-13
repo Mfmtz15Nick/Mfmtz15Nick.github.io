@@ -1,0 +1,13 @@
+@font-face {
+    font-family: testfont;
+    src: url("fonts/Brandon_bld.otf") format("opentype");
+}
+@font-face {
+    font-family: hola;
+    src: url("fonts/Brandon_bld.otf") format("opentype");
+}
+
+.mario {
+    font-family: 'hola' ;
+    font-size: 30px;
+}
