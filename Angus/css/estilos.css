@@ -62,8 +62,13 @@ div nav{
     background: #F5A81A;
     border: 0;
     height: 30px;
-    margin-left: 290px;
-    margin-top: 10px;
+    margin-left: 270px;
+    margin-top: 20px;
+    width: 80px;
+}
+#textbox button:hover{
+    border: 2px groove black; 
+    
 }
 #texto{
     margin-left: 130px;

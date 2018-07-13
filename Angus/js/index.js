@@ -1,7 +1,4 @@
 
-$("#btn-enviar").on("click",mandarCorreo);
-
-
 function mandarCorreo(){
     var nombre = $("#txt-nombre").val();
     var correo = $("#txt-correo").val();
@@ -15,4 +12,11 @@ function mandarCorreo(){
     '%0A  Mensaje: '+mensaje+'');
     
 }
+var tecla = function(tecla){
+    if(tecla.which == 13 ){//Preguntar si es un Enter.
+        mandarCorreo();
+    }
+}
+$("#btn-enviar").on("click",mandarCorreo);
+$("#txt-mensaje").on("keypress",tecla);
 
