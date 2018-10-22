@@ -1,0 +1,52 @@
+
+body{
+    margin: 0px;
+    font-size: 16em;
+   
+
+}
+
+
+
+body{
+	
+	background: url(../baner2.jpg)no-repeat center top;
+	background-size: cover;
+	background-attachment: fixed;
+	text-align: center;
+}
+
+body:after{
+    content: "";
+    background-color: rgba(0, 0, 0, .6);
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0   ;
+    bottom: 0;
+}
+
+
+body section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    color: white;
+    z-index: 1;
+   
+}
+section article h1{
+    font-size: 3.5em;
+}
+
+.letra{
+    font-family: 'Lato', sans-serif;
+
+}
+.numero{
+    font-family: 'Open Sans', sans-serif;
+
+}
