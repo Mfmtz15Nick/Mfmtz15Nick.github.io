@@ -27,6 +27,7 @@ header img{
 #table01 tr td article:hover{
     width: 95%;
     height: 95%;
+    transition: width 2s;
 }
 #seccion02 article{
     display: inline-block;
