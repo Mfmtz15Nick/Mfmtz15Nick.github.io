@@ -28,10 +28,10 @@ var pronostico = function(){
 
                     var condicion = response.current.condition.text;
                     if(condicion === "Overcast"){
-                        $("#condicion").html("Nublado");
+                        $("#condicion").html(condicion);
                     }
                     else
-                        $("#condicion").html("Fue else");
+                        $("#condicion").html(condicion);
                               
                 }
               
