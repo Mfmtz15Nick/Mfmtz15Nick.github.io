@@ -1,0 +1,16 @@
+body{
+    color: black;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+.card{
+    width: 20%;
+    left: 20%;
+    top: 30%;
+    margin-left: 20%;
+    font-size: 2em;
+    position: absolute;
+    
+}
