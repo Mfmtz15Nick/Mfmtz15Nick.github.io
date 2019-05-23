@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es"> 
+ <head>
+  <title>My pets</title>
+  <meta charset-"UTF-8">
+  <meta name="viewport" content="width=device-eidth, user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
+  <Link rel="stylesheet" href="css/fontello.css">
+  <Link rel="stylesheet" href="css/estilos.css">
+  <Link rel="stylesheet" href="css/menu.css">
+  <Link rel="stylesheet" href="css/banner.css">
+  <Link rel="stylesheet" href="css/blog.css">
+  <Link rel="stylesheet" href="css/info.css">
+ </head>
+
+ <body>
+ <header>
+   <div class="contenedor">
+   <h1 class="icon-dog">My pets</h1>
+   <input type="checkbox" id="menu-bar">
+   <label class="icon-menu" for="menu-bar"></label>
+   <nav class="menu">
+      <a href="">Inicio</a>
+      <a href="https://www.paradais-sphynx.com/mascotas/tipos-de-mascotas.htm">Mascotas</a>
+      <a href="https://www.hogarmania.com/mascotas/otras/201306/adoptar-apadrinar-animales-20587.html">Blog</a>
+      <a href="https://adoptare.org/proteccion-animal">Contacto</a>
+     </nav>
+    </div>
+   </header>
+
+   <main>
+    <section id="banner">
+      <img src="C:\Users\Usuario\Documents\HTML\banner.jpg">
+      <div class="contenedor">
+        <h2>Mascotas y niños felices</h2>
+        <p>¿cuál es la mejor mascota para usted?</p>
+        <a href="https://www.fundacion-affinity.org/perros-gatos-y-personas/busco-una-mascota/la-adopcion-una-nueva-oportunidad-para-las-mascotas">leer más</a>
+      </div>
+    </section>
+
+    <section id="Bienvenidos">
+      <P align="center"><big><B>BIENVENIDOS A NUESTRO CLUB</B></big></p>
+      <p align="center">¡Nuestro principal propósito en esta vida es ayudar a otros. Y si no puedes ayudarles al menos no les hagas daño!</p>
+    </section>
+
+    <section id="blog">
+      <h3>Lo ultimo de nuestro blog</h3>
+      <div class="contenedor">
+        <article>
+          <a href="https://mx.hola.com/actualidad/2010052114462/claves/escoger/mascota/"><img src="C:\Users\Usuario\Documents\HTML\pet9.jpg"></a>
+          <h4>Escoge tu mascota perfecta</h4>
+        </article>
+        <article>
+          <img src="C:\Users\Usuario\Documents\HTML\gif.gif">
+          <h4>Los animales necesitan cariño</h4>
+        </article>
+        <article>
+          <a href="https://www.youtube.com/watch?v=wPVgeM8p8kA"><img src="C:\Users\Usuario\Documents\HTML\pet10.jpg"></a>
+          <h4>Disfruta con tu mascota</h4>
+        </article>
+      </div>
+     </section>
+
+     <section id="info">
+       <P align="center"><big><B> Para muhcos de nosotros las mascotas no son simples compañeros, son miembros de la familia.</big></B></P>
+       <div class="contenedor">
+         <div class="info-pet">
+           <a href="https://www.youtube.com/watch?v=LTCHKbnWO-Y"><img src="C:\Users\Usuario\Documents\HTML\pet1.jpg"></a>
+           <h4>Max</h4>
+         </div>
+         <div class="info-pet">
+           <a href="https://www.youtube.com/watch?v=5U8ms9Y-UIA"><img src="C:\Users\Usuario\Documents\HTML\pet7.jpg"></a>
+           <h4>Jerry</h4>
+         </div>
+         <div class="info-pet">
+           <a href="https://www.youtube.com/watch?v=J3NAYXXyBVI"><img src="C:\Users\Usuario\Documents\HTML\pet3.jpg"></a>
+           <h4>Tom</h4>
+         </div>
+         <div class="info-pet">
+           <a href="https://www.youtube.com/watch?v=_KDAefw2X8Y"><img src="C:\Users\Usuario\Documents\HTML\pet4.jpg"></a>
+           <h4>Sam</h4>
+         </div>
+       </div>
+    </section>
+   </main>
+
+   <footer>
+    <div class="contenedor">
+      <p class="copy">My pets &copy; 2019</p>
+      <div class="sociales">
+        <p align="center"><a class="icon-facebook" href="https://es-la.facebook.com/pages/category/Company/Adopta-una-Mascota-169918308602/"></a>
+        <a class="icon-twitter" href="https://twitter.com/mascotamx?lang=es"></a>
+        <a class="icon-instagram" href="https://www.instagram.com/adoptaunamascota_/?hl=es-la"></a>
+        <a class="icon-gplus" href="https://adoptare.org/proteccion-animal"></a></p>
+     </div>
+    </div>
+   </footer>
+  </body>
+</html>

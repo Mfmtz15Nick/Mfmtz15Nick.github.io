@@ -1,0 +1,39 @@
+#info {
+  background: #333;
+  color: #fff;
+  text-aling: center;
+  padding: 8%;
+}
+
+#info .contenedor {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   padding-top: 3%;
+}
+
+.info-pet {
+margin: 20px;
+}
+
+.info-pet img {
+   width: 180px;
+   height: 180px;
+   border-radius: 50%;
+   border: 7px solid #fff;
+}
+.title{
+   font-size: 1.5em;
+}
+
+@media (min-widht:480px) {
+    .info-pet {
+       width: 40%;
+   }
+}
+
+@media (min-widht:1024px) {
+    .info-pet {
+       width: auto;
+   }
+}
