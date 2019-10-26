@@ -1,6 +1,6 @@
 
 var pronostico = function(){
-    var curp = ["FOMM941123HSLNRR09","RIOK960901MSLVBR05","RIOE001115MSLVBLA0"]
+    var curp = ["FOMM941123HSLNRR09","GOBC961121MSLVBR05"]
     var jalate = function(){
         //var nombre = $("#texto").val();
         var nombre = $('#texto').val();
@@ -8,14 +8,12 @@ var pronostico = function(){
         if(nombre === "mario" || nombre === "Mario" || nombre === " mario" || nombre === " Mario" || nombre === "mario " || nombre ==="Mario " || nombre === " Mario " || nombre === " mario "){
             $("#texto2").html(curp[0]); 
         }
-        else if(nombre === "karla" || nombre === "Karla" || nombre === " karla" || nombre === " Karla" || nombre === "karla " || nombre ==="Karla " || nombre === " Karla " || nombre === " karla "){
+        else if(nombre === "gorgo" || nombre === "Gorgo" || nombre === "gorgots" || nombre === "Gorgots" || nombre === "Gordoa" || nombre ==="gordoa" || nombre === "carlos" || nombre === "Carlos"){
             $("#texto2").html(curp[1]); 
         }
-        else if(nombre === "elva" || nombre === "Elva" || nombre === " elva" || nombre === " Elva" || nombre === "elva " || nombre ==="Elva " || nombre === " Elva " || nombre === " elva "){
-            $("#texto2").html(curp[2]); 
-        }
+        
         else{
-            $("#texto2").html("No existes"); 
+            $("#texto2").html("No existes paps"); 
         }
 
         
