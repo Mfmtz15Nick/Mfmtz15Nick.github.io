@@ -1,6 +1,6 @@
 
 var pronostico = function(){
-    var curp = ["FOMM941123HSLNRR09","GOBC961121MSLVBR05"]
+    var curp = ["FOMM941123HSLNRR09","GOBC211196HSLRSR00"]
     var jalate = function(){
         //var nombre = $("#texto").val();
         var nombre = $('#texto').val();
