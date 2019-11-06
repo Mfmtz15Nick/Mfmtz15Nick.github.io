@@ -12,7 +12,7 @@ var pronostico = function(){
             $("#texto2").html(curp[1]); 
         }
         else if(nombre === "kaira" || nombre === "Kaira" || nombre === "kaira " || nombre === " kaira" || nombre === " kaira " || nombre ==="kaira" || nombre === "kaira" || nombre === "kaira"){
-            $("#texto2").html(curp[1]); 
+            $("#texto2").html(curp[2]); 
         }
         
         else{
