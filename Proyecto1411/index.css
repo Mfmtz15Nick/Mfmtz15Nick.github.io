@@ -1,0 +1,38 @@
+body{ font-family: 'Lato', sans-serif; }
+
+/* Bolas de nubes */
+.inicio .nubes{ position: relative; height: 23vh; }
+.inicio .nubes .div1{ position: absolute; width: 336px; height: 336px; left: 230px; top: -197px;background: #FFFFFF;}
+.inicio .nubes .div2{ position: absolute; width: 336px; height: 336px; left: -152px; top: -218px;background: #FFFFFF;}
+.inicio .nubes .div3{ position: absolute; width: 336px; height: 336px; left: 36px; top: -247px;background: #FFFFFF; }
+.inicio .nubes .div4{ position: absolute; width: 361px; height: 361px; left: 486px; top: -238px;background: #FFFFFF;}
+.inicio .nubes .div5{ position: absolute; width: 370px; height: 370px; left: 744px; top: -221px;background: #FFFFFF;}
+.inicio .nubes .div6{ position: absolute; width: 370px; height: 370px; left: 917px; top: -257px;background: #FFFFFF;}
+.inicio .nubes .div7{ position: absolute; width: 336px; height: 336px; left: 1132px; top: -187px;background: #FFFFFF;}
+.inicio .nubes .bola{ border-radius: 50%; }
+
+.casa-origen { position: absolute; bottom: 5%; }
+.casa-origen img { width: 15%; }
+/* SECCION1 - Formulario */
+.inicio .seccion1 .formulario .contenedor .renglon1 .columna1 h1 { text-align: center; }
+
+#object {
+    position: fixed;
+    left: 100px;
+    bottom: 13%;
+    height: 30px;
+    width: 30px;
+    border-radius:5px; 
+}
+.casa-origen {
+    position: fixed;
+    left: 0;
+    bottom: 5%;
+    
+    border-radius:5px; 
+}
+
+body {
+    height: 3000px;
+    background: grey;
+}
